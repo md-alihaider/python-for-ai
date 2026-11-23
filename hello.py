@@ -1,5 +1,7 @@
-import requests
+# Variables
+first_name = "Ali" 
+last_name = "Haider"
+print(f"{first_name} {last_name}")
 
-# Download a web page
-response = requests.get("https://api.github.com")
-print(response.status_code)  # Should print 200
+user_age = 24 
+is_logged_in = True
